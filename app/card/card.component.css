@@ -1,0 +1,20 @@
+.card {
+  border-radius: 0;
+  cursor: pointer;
+}
+.card,
+.card-footer {
+  background-color: #ffffa5;
+  border: none;
+}
+.card.completed,
+.card.completed .card-footer {
+  background-color: #eee;
+  color: #ccc;
+}
+.card-footer { text-align: right; }
+i {
+  color: #c00;
+  padding-right: .5rem;
+}
+.fa-check { color: #009688; }
